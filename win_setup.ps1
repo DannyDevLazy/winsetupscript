@@ -1,4 +1,4 @@
-# Chocolatey install
+#Chocolatey install
 Set-ExecutionPolicy Bypass -Scope Process -Force
 Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 powershell choco feature enable -n allowGlobalConfirmation
@@ -13,4 +13,4 @@ Add-AppxProvisionedPackage -Online -PackagePath ".\Microsoft.VCLibs.x64.14.00.De
 Add-AppxProvisionedPackage -Online -PackagePath ".\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle" -LicensePath ".\b0a0692da1034339b76dce1c298a1e42_License1.xml"
 
 #ChrisTitusUtitlity
-irm christitu.com/win | iex
+irm christitus.com/win | iex
