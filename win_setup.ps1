@@ -12,5 +12,10 @@ irm "https://github.com/microsoft/winget-cli/releases/download/v1.2.10271/b0a069
 Add-AppxProvisionedPackage -Online -PackagePath ".\Microsoft.VCLibs.x64.14.00.Desktop.appx" -SkipLicense
 Add-AppxProvisionedPackage -Online -PackagePath ".\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle" -LicensePath ".\b0a0692da1034339b76dce1c298a1e42_License1.xml"
 
+#Install brave, steam and windows terminal
+choco install brave
+choco install steam
+choco install microsoft-windows-terminal
+
 #ChrisTitusUtitlity
 irm christitus.com/win | iex
